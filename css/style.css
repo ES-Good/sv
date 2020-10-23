@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "BanderaProHeavy";
+    src: url("../fonts/BanderaProHeavy.woff") format("woff"),
+      url("../fonts/BanderaProHeavy.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "BanderaPro";
+    src: url("../fonts/BanderaPro.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-img{
+    width: 100px;
+}
+
+button,
+button:focus{
+    background: #2c4393;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: "BanderaPro";
+    padding: 15px 30px;
+}
+
+.btn-header{
+    font-size: 24px;
+}
+
+.text-blue{
+    color: #2c4393;
+}
+
+.text-dark{
+    color: #4e4e4e;
+}
+
+.text-black{
+    color: #000;
+}
+
+.title-big{
+    font-size: 24px;
+}
+
+.title-big_header{
+    font-family: "BanderaProHeavy";
+}
+
+.bg-header{
+    background-image: url(../img/header/bg.png);
+    background-repeat: no-repeat;
+}
+
+.phone-header{
+    font-family: "BanderaProHeavy";
+}
