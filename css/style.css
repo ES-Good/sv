@@ -44,11 +44,8 @@ button:focus{
 }
 
 .title-big{
-    font-size: 24px;
-}
-
-.title-big_header{
     font-family: "BanderaProHeavy";
+    font-size: 24px;
 }
 
 .bg-header{
