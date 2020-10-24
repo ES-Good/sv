@@ -48,6 +48,7 @@ button:focus{
     font-size: 24px;
 }
 
+
 .bg-header{
     background-image: url(../img/header/bg.png);
     background-repeat: no-repeat;
@@ -55,4 +56,57 @@ button:focus{
 
 .phone-header{
     font-family: "BanderaProHeavy";
+}
+
+.discription-top-section{
+    font-family: "BanderaPro";
+}
+
+.bg-red{
+    background-color: #ed2626;
+}
+
+.product-title-container{
+    height: 285px;
+}
+
+.product-img{
+    width: 130px;
+}
+
+.card{
+    font-family: "BanderaPro";
+}
+
+.product-btn{
+    display: none;
+}
+
+.product-card{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    transition: all 0.2s;
+    height: 305px;
+}
+
+.product-card:hover{
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(1.1);
+    border: 1px solid #2c4393;
+    padding-bottom: 1px !important;
+    height: 330px;
+}
+
+.product-card:hover .product-btn{
+    display: block;
+}
+
+.container_product-card{
+    position: relative;
+    height: 320px;
 }
