@@ -159,3 +159,11 @@ button:focus{
     width: 155px;
     top: -55px;
 }
+
+.text-mobile-v{
+    font-size: 17px;
+}
+
+.step-5 p{
+    font-size: 14px;
+}

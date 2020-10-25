@@ -21,7 +21,16 @@
 }
 
 @media(min-width:992px){
-
+    .img-kays{
+        left: 0;
+    }
+    .img-motor{
+        right: -82%;
+    }
+    .container_discount{
+        height: 310px;
+        overflow: visible;
+    }
 }
 
 @media(min-width:1200px){
