@@ -2,6 +2,18 @@
     .title-big{
         font-size: 36px;
     }
+    .container_discount{
+        border-radius: 50px;
+    }
+    .img-kays{
+        left: -137px;
+    }
+    .img-motor{
+        width: 250px;
+    }
+    .container_discount{
+        height: 420px;
+    }
 }
 
 @media(min-width:768px){

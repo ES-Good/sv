@@ -17,14 +17,17 @@
     width: 100px;
 }
 
-button,
-button:focus{
+button{
     background: #2c4393;
     color: #fff;
     border: none;
     outline: none;
     font-family: "BanderaPro";
     padding: 15px 30px;
+}
+
+button:focus{
+    outline: none;
 }
 
 .btn-header{
@@ -41,6 +44,10 @@ button:focus{
 
 .text-black{
     color: #000;
+}
+
+.text-red{
+    color: #ed2626;
 }
 
 .title-big{
@@ -64,6 +71,10 @@ button:focus{
 
 .bg-red{
     background-color: #ed2626;
+}
+
+.bg-grey{
+    background-color: #f3f3f3;
 }
 
 .product-title-container{
@@ -109,4 +120,42 @@ button:focus{
 .container_product-card{
     position: relative;
     height: 320px;
+}
+
+.btn-dowland-product{
+    background-color: transparent;
+
+}
+
+.container_discount{
+    /* border-radius: 50px; */
+}
+
+.container_discount__title,
+.container_discount__sub-title{
+    font-family: "BanderaProHeavy";
+}
+
+.container_discount{
+    font-family: "BanderaPro";
+    font-size: 14px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container__img-kays{
+    border-radius: 50px;
+}
+
+.img-kays{
+    position: absolute;
+    bottom: 0;
+    left: -265px;
+}
+
+.img-motor{
+    position: relative;
+    right: -56%;
+    width: 155px;
+    top: -55px;
 }
