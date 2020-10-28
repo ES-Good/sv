@@ -59,6 +59,9 @@ button:focus{
     font-size: 24px;
 }
 
+.title-price{
+    font-family: "BanderaPro";
+}
 
 .bg-header{
     background-image: url(../img/header/bg.png);
@@ -79,6 +82,16 @@ button:focus{
 
 .bg-grey{
     background-color: #f3f3f3;
+}
+
+.bg-blue{
+    background-color: #2c4393;
+    color: #fff;
+}
+
+.border-blue{
+    border: 1px solid #2c4393;
+    border-radius: 9px;
 }
 
 .product-title-container{
@@ -186,4 +199,14 @@ button:focus{
 .img-oil-mobile{
     position: absolute;
     width: 375px;
+}
+
+.bg-price{
+    background-image: url(../img/price/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.price__list p{
+    font-size: 14px;
 }
