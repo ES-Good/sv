@@ -17,7 +17,13 @@
 }
 
 @media(min-width:768px){
-    
+    .price::after,
+    .price::before{
+        display: block;
+    }
+    .price::before{
+        left: 435px;
+    }
 }
 
 @media(min-width:992px){
@@ -31,8 +37,13 @@
         height: 310px;
         overflow: visible;
     }
+    .price::before {
+        left: 565px;
+    }
 }
 
 @media(min-width:1200px){
-
+    .price::before {
+        left: 700px;
+    }
 }

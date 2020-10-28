@@ -201,12 +201,44 @@ button:focus{
     width: 375px;
 }
 
+.price{
+    position: relative;
+}
+
+.price::after,
+.price::before{
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.price::after{
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/prise-desctop/left-wheel.png);
+    top: 300px;
+    left: -360px;
+}
+
+.price::before{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/prise-desctop/right-wheel.png);
+    z-index: 1;
+    top: 400px;
+    left: 700px;
+}
+
 .bg-price{
     background-image: url(../img/price/bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .price__list p{
     font-size: 14px;
 }
+
