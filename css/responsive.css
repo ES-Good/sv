@@ -84,10 +84,22 @@
     .price_bottom::after{
         display: block;
     }
+    .reviews::before{
+        height: 316px;
+    }
+    .reviews::after{
+        height: 335px;
+    }
 }
 
 @media(min-width:1200px){
     .price::before {
         left: 700px;
+    }
+    .reviews::before{
+        height: 300px;
+    }
+    .reviews::after{
+        height: 320px;
     }
 }

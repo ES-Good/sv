@@ -293,3 +293,41 @@ button:focus{
     content: "\2605";
     color: #ed2626;
 }
+
+.reviews{
+    z-index: 0;
+}
+
+.reviews::before,
+.reviews::after{
+    content: '';
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid #dedede;
+}
+
+.reviews::before{
+    width: 90%;
+    height: 300px;
+    background-color: #fafafa;
+    top: -5%;
+    left: 5%;
+    z-index: 0;
+}
+
+.reviews::after{
+    width: 85%;
+    height: 320px;
+    background-color: #f1f1f1;
+    top: -8%;
+    left: 7%;
+    z-index: -1;
+}
+
+.ico_mas{
+    width: 25px;
+}
+
+.ico_map{
+    width: 20px;
+}
