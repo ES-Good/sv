@@ -14,6 +14,47 @@
     .container_discount{
         height: 420px;
     }
+    .slick-prev, .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: auto;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    .slick-next {
+        transform: rotate(90deg);
+        left: -26px;
+        bottom: 15px;
+    }
+    .slick-prev {
+        left: -25px;
+        z-index: 99;
+        top: 30px;
+        transform: rotate(90deg);
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 118px;
+        display: block;
+        width: 150px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        left: -92px;
+        transform: rotate(90deg);
+    }
 }
 
 @media(min-width:768px){
@@ -39,6 +80,9 @@
     }
     .price::before {
         left: 565px;
+    }
+    .price_bottom::after{
+        display: block;
     }
 }
 

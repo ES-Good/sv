@@ -30,7 +30,6 @@ dowlandPrice();
 let select = document.querySelector('.select-r');
 
 select.onchange = function () {
-        console.log(this.value);
         createPrice(this.value);
 }
 
@@ -88,3 +87,10 @@ function price(cut, bulkhead, repairs, cooking, balancing, sealant, cameraRepair
     price7.innerText = cameraRepair;
     price8.innerText = straightening;
 }
+$('.single-item').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });

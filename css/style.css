@@ -90,7 +90,7 @@ button:focus{
 }
 
 .border-blue{
-    border: 1px solid #2c4393;
+    border: 1px solid #2c4393 !important;
     border-radius: 9px;
 }
 
@@ -236,6 +236,7 @@ button:focus{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-position-y: bottom;
 }
 
 .price__list p{
@@ -252,10 +253,43 @@ button:focus{
     width: 100%;
 }
 
+.price_bottom::after{
+    content: '';
+    width: 98%;
+    height: 1px;
+    background-color: #d1d1d1;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: none;
+}
+
 .value-price::after{
     content: ' руб.';
 }
 
 .price_bottom .d-flex h5{
     font-size: 16px;
+}
+
+.bg-price_bottom{
+    background-image: url(../img/bg-price_bottom/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me-testimonial-two-data span i{
+    color: #fe6601;
+    padding-right: 4px;
+    display: inline-block;
+}
+
+.fa, .fas{
+    font-weight: 900;
+}
+
+.fa-star:before {
+    content: "\2605";
+    color: #ed2626;
 }
