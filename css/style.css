@@ -179,6 +179,7 @@ button:focus{
     right: -56%;
     width: 155px;
     top: -55px;
+    height: auto;
 }
 
 .text-mobile-v{
