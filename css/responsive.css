@@ -90,6 +90,9 @@
     .reviews::after{
         height: 335px;
     }
+    .modal{
+        overflow: visible !important;
+    }
 }
 
 @media(min-width:1200px){

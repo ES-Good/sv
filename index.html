@@ -13,6 +13,52 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+  <button type="button" class="" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Модальное окно -->
+  <div class="modal fade border-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content modal border-blue">
+        <div class="modal-body p-0">
+          <div class="row pl-3">
+            <div class="col-12 col-lg-8 p-5 overflow-hidden bg-modal order-2 order-lg-1">
+              <h2 class="title-modal text-blue title-modal"><b>ОСТАВИТЬ ЗАЯВКУ</b></h2>
+              <form action="#" class="mt-5">
+                <input type="text" class="form-control" placeholder="Ваше имя">
+                <input type="tel" class="form-control mt-2" placeholder="+7(___)___-__-__">
+                <p class="mt-3"><input type="checkbox" name="" id="">Я согласен с политикой <br>конфидециальности</p>
+                <button type="submit" class="text-nowrap">Оставатся с нами</button>
+              </form>
+            </div>
+            <div class="col-12 col-lg-4 right-col-modal position-relative order-1 order-lg-2">
+              <div>
+                <button type="button" class="close mr-3" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="d-flex mt-5 right-col-modal__container-title">
+                <div class="col-6">
+                  <p class="right-col-modal__title">Скидка <br>10%</p>
+                </div>
+                <div class="col-6 d-flex flex-column">
+                  <p class="modal__text-soc">Подробнее <br> в группе ВК</p>
+                  <a href="#" class="link_social"> Перейти</a>
+                </div>
+              </div>
+              <h2 class="right-col-modal__title mt-3">
+                НА ВСЕ ВИДЫ <br>
+                РЕМОНТНЫХ <br>
+                РАБОТ
+              </h2>
+              <img src="img/modal/img.png" alt="" class="img-modal d-none d-lg-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="container-fluid header border-bottom">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
@@ -58,7 +104,7 @@
                 <h2 class="discription-top-section text-dark title-big my-3 my-lg-0">Диагностика ходовой <br class="d-none d-sm-block"> части <span class="bg-red text-white">бесплатно</span></h2>
                 <img src="img/header/wheel.png" alt="banner" class="img-fluid d-block d-lg-none">
                 <h4 class="text-black my-3 my-lg-0 mx-auto mx-lg-0 text-center text-lg-left">Оставляй заявку и получи скидку -10%</h4>
-                <button type="submit" class="btn-header text-nowrap mx-auto mx-lg-0">Оставить заявку</button>
+                <button type="submit" class="btn-header text-nowrap mx-auto mx-lg-0" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
               </div>
               <div class="col-12 col-lg-6 order-1 d-none d-lg-block">
                 <img src="img/header/wheel.png" alt="banner" class="img-fluid">
@@ -83,7 +129,7 @@
                 диагностика <br>
                 и ремонт ДВС
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -96,7 +142,7 @@
                 и ремонт ходовой <br>
                 части
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -108,7 +154,7 @@
                 Компьютерная <br>
                 диагностика
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -120,7 +166,7 @@
                 Техническое <br>
                 обслуживание
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -131,7 +177,7 @@
               <p class="card-text text-center">
                 Автоэлектрика
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -142,7 +188,7 @@
               <p class="card-text text-center">
                 Ремонт МКПП
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -154,7 +200,7 @@
                 Выхлопная <br>
                 система
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -169,7 +215,7 @@
                 3D <br>
                 развал-схождение
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -181,7 +227,7 @@
                 Тормозная <br>
                 система
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -193,7 +239,7 @@
                 Заправка <br>
                 кондиционера
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -205,7 +251,7 @@
                 Рулевое <br>
                 управление
               </p>
-              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto">Оставить заявку</button>
+              <button type="submit" class="btn-modal product-btn text-nowrap mx-auto" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
             </div>
           </div>
         </div>
@@ -336,7 +382,7 @@
             <h2 class="title-big text-blue">ПРАЙС-ЛИСТ</h2>
           </div>
           <div class="col-12 col-sm-6">
-            <button>Проконсультироваться</button>
+            <button data-toggle="modal" data-target="#myModal">Проконсультироваться</button>
           </div>
       </div>
     </div>
@@ -716,6 +762,45 @@
         </div>
       </div>
     </div>
+    <footer class="container-fluid py-5 bg-blue">
+      <div class="container">
+        <div class="row d-flex justify-content-around  footer-inner">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="ml-5 ml-sm-4 ml-md-0"">
+              <a href="#">
+                <img src="img/logo/logo-footer.png" alt="" class="footer-logo mx-auto">
+              </a>
+              <p>sv-service2006@yandex.ru</p>
+              <p class="mb-0">Магазин автозапчастей</p>
+              <p><b>+7 (846) 334-01-60</b></p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-4">
+            <ul>
+              <li>Ремонт двигателей</li>
+              <li>Диагностика и ремонт ходовой</li>
+              <li>Компьютерная диагностика</li>
+              <li>Автоэлектрика</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-4">
+            <ul>
+              <li>Техническое обслуживание</li>
+              <li>Выхлопная система</li>
+              <li>3D Развал схождение</li>
+              <li>Рулевое управление</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-4">
+            <ul>
+              <li>Заправка кондиционера</li>
+              <li>Тормозная система</li>
+              <li>Ремонт МКПП</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
