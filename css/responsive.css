@@ -55,6 +55,9 @@
         left: -92px;
         transform: rotate(90deg);
     }
+    .card{
+        height: 260px;
+    }
 }
 
 @media(min-width:768px){
@@ -92,6 +95,9 @@
     }
     .modal{
         overflow: visible !important;
+    }
+    .input-modal{
+        width: 60%;
     }
 }
 
