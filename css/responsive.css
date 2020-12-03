@@ -58,6 +58,25 @@
     .card_reviews{
         height: 260px;
     }
+    .product-btn{
+        display: none;
+    }
+    .container_product-card{
+        position: relative;
+        height: 320px;
+    }
+    .product-card{
+        height: 300px;
+    }
+    .product-card:hover{
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) scale(1.1);
+        border: 1px solid #2c4393;
+        padding-bottom: 1px !important;
+        height: 330px;
+    }
 }
 
 @media(min-width:768px){

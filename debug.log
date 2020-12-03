@@ -7,3 +7,5 @@
 [1030/142221.153:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1030/142221.154:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1030/142221.154:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1111/103811.322:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1111/131237.335:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\РњР°РєСЃРёРј\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d0949ede-2dfd-4d4c-a3b0-d44931462cbc: Системе не удается найти указанный путь. (0x3)

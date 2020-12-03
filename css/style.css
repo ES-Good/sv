@@ -111,7 +111,7 @@ button:focus{
 }
 
 .product-btn{
-    display: none;
+    display: block;
 }
 
 .product-card{
@@ -121,7 +121,7 @@ button:focus{
     transform: translateX(-50%);
     width: 230px;
     transition: all 0.2s;
-    height: 305px;
+    height: 330px;
 }
 
 .product-card:hover{
@@ -140,7 +140,7 @@ button:focus{
 
 .container_product-card{
     position: relative;
-    height: 320px;
+    height: 340px;
 }
 
 .btn-dowland-product{
