@@ -415,3 +415,7 @@ footer ul li{
     height: 400px;
     padding: 20px 0 0 20px;
 }
+
+.soc-link:hover img{
+    transform: scale(1.1);
+}
